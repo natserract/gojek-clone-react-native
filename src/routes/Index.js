@@ -71,7 +71,6 @@ const Left = (props) => {
     return (
         <TouchableWithoutFeedback onPress={props.onPress}>
             <AntDesign.Button name="arrowleft" backgroundColor="transparent" color="#000" size={25} />
-            {/* <Text>=</Text> */}
         </TouchableWithoutFeedback>
     )
 }

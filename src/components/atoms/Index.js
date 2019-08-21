@@ -10,6 +10,9 @@ import GoPayHeaderArea from './home/GoPayHeaderArea'
 import HorizontalHeader from './home/HorizontalHeader'
 import * as MenuItem from './home/MenuItem'
 
+/* Orders */
+import Orders from './orders/List'
+
 module.exports = {
     AtomGlobal: {
         Button,
@@ -22,5 +25,8 @@ module.exports = {
         GoPayHeaderArea,
         HorizontalHeader,
         MenuItem 
+    },
+    AtomOrder: {
+        Orders
     }
 }

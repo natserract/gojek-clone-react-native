@@ -78,7 +78,8 @@ var ImgSource = {
     },
     orders: {
         vector: require(IconImgSource + 'orders-history.png'),
-        noitem: require(ContentImgSource + 'order_noitem.png')
+        noitem: require(ContentImgSource + 'order_noitem.png'),
+        orderHistory: require(IconImgSource + 'gojek_history.png')
     }
 };
 

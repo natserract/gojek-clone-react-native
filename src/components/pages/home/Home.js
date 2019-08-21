@@ -50,7 +50,6 @@ class HomeScreen extends Component {
         }
     }
 
-
     render() {
         const { imageItems, items } = this.state;
         const { navigation } = this.props;
