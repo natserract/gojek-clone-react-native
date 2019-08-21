@@ -1,9 +1,12 @@
 
 export default {
     BACKGROUND_COLOR: '#FFF',
+    FONTSIZE_LARGE: 20,
+    FONTSIZE_MEDIUM: 16,
     FONTSIZE_SMALL: 12,
     FONT_WEIGHT_MEDIUM: '600',
     FONT_WEIGHT_BOLD: '700',
     ACTIVE_TINT_COLOR: '#42a64c',
     INACTIVE_TINT_COLOR: '#9ba0a3',
+    UPPERCASE: 'uppercase'
 }
