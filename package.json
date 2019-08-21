@@ -16,7 +16,8 @@
     "react-navigation": "^3.11.1",
     "react-navigation-redux-helpers": "^3.0.2",
     "react-redux": "^7.1.0",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "remote-redux-devtools": "^0.5.16"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
