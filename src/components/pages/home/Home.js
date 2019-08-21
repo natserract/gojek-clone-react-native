@@ -50,18 +50,17 @@ class HomeScreen extends Component {
         }
     }
 
+    /* Close modal when clicked the overlay */
+    _pressOutside = () => {
+        this.setState({
+            modalVisible: false
+        })
+    }
+
     render() {
         const { imageItems, items } = this.state;
         const { navigation } = this.props;
 
-        /* Close modal when clicked the overlay */
-        _pressOutside = () => {
-            this.setState({
-                modalVisible: false
-            })
-        }
-
-        /* Make Map */
         const ItemServices = items.map((item, i) =>
             <Atom.MenuItem.MenuItemBorder
                 key={i}
@@ -98,7 +97,7 @@ class HomeScreen extends Component {
 
                         {/* Other Services PopUp */}
                         <Molecules.OtherServices
-                            onPressOutside={_pressOutside}
+                            onPressOutside={this._pressOutside}
                             visible={this.state.modalVisible}
                         />
                     </View>

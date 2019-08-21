@@ -1,12 +1,12 @@
 import React from 'react';
-import { TouchableOpacity, StyleSheet, Text } from 'react-native';
+import { TouchableOpacity, StyleSheet, Text, Alert } from 'react-native';
 
 
 /* Button Outline */
 export const Outline = (props) => {
     return (
-        <TouchableOpacity onPress={props.onPress} activeOpacity={1} style={[styles.buttonOutline, props._styleButtonOutline]}>
-            <Text style={styles.text}>{props.value}</Text>
+        <TouchableOpacity onPressIn={props.onPress} activeOpacity={1} style={[styles.buttonOutline, props.styleButtonOutline]}>
+            <Text style={[styles.text, props.textStyle]}>{props.value}</Text>
         </TouchableOpacity>
     )
 }
@@ -14,8 +14,8 @@ export const Outline = (props) => {
 /* Button Background No Outline */
 export const Background = (props) => {
     return (
-        <TouchableOpacity activeOpacity={1} style={[styles.buttonBackground, props._styleButtonBackground]}>
-            <Text style={styles.text}>{props._value}</Text>
+        <TouchableOpacity activeOpacity={1} style={[styles.buttonBackground, props.styleButtonBackground]}>
+            <Text style={[styles.text, props.textStyle]}>{props.value}</Text>
         </TouchableOpacity>
     )
 }

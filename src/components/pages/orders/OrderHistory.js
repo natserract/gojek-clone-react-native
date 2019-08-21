@@ -1,17 +1,31 @@
 
 import React, { Component } from 'react';
-import { Text, View, Alert, RefreshControl, FlatList, ScrollView } from 'react-native';
-
+import { Alert, RefreshControl, FlatList, ScrollView } from 'react-native';
 
 import { AtomGlobal, AtomOrder } from '../../atoms/Index'
 
-export default class OrderHistory extends Component {
+class OrderHistory extends Component {
     static navigationOptions = {
         headerTitle: 'History',
     }
 
     constructor(props) {
         super(props)
+        let dateNow = new Date(Date.now())
+            getDate = dateNow.getDate()
+            getMonth = dateNow.getMonth() 
+            getHours = dateNow.getHours()
+            getMinutes = dateNow.getMinutes()
+            getTimeOffset = dateNow.getUTCHours()
+            monthNames = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+            month = monthNames[getMonth]
+            hours = getHours >= 12 ? 'PM' : 'AM'
+            date = `${getDate} ${month}. ${getHours}:${getMinutes} ${hours}`
+
+
         this.state = {
             isLoaded: true,
             refresh: false,
@@ -20,7 +34,7 @@ export default class OrderHistory extends Component {
                     id: 1,
                     name: 'STIKOM BALI',
                     orderStatus: 'Trip Cancelled',
-                    date: '6 Jul, 5:14 PM'
+                    date: date
                 },
             ]
         }
@@ -71,6 +85,8 @@ export default class OrderHistory extends Component {
     }
 }
 
+
+export default OrderHistory
 
 /*   
 If online uncomment this code for get data from json

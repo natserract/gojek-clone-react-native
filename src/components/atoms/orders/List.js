@@ -6,7 +6,7 @@ import ThemeStyle from '../../../styles/theme.style'
 
 const List = (props) => {
     return (
-        <TouchableOpacity activeOpacity={.8} onPress={props.onPress} >
+        <TouchableOpacity activeOpacity={.8} onPress={props.onPress}>
             <View style={styles.container}>
                 <View style={styles.gridLeft}>
                     <Image source={ImageSource.orders.orderHistory} style={styles.ing} />
