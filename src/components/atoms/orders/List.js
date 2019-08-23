@@ -27,10 +27,10 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        marginBottom: 13,
+        marginBottom: 8,
         borderBottomColor: '#f0f0f0',
         borderBottomWidth: 1,
-        paddingBottom: 15
+        paddingBottom: 18
     },
     ing: {
         resizeMode: 'contain',
