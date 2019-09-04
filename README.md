@@ -19,7 +19,7 @@ Developed an end to end **Gojek App** using React Native with multiple screens
     "name": "gojekdev",
     "dependencies": {
         "react": "16.8.6",
-        "react-native": "^0.59.4",
+        "react-native": "^0.60.5",
         "react-native-animatable": "^1.3.2",
         "react-native-gesture-handler": "^1.3.0",
         "react-native-vector-icons": "^6.6.0",
