@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, StyleSheet, Text, Alert } from 'react-native';
+import { TouchableOpacity, StyleSheet, Text } from 'react-native';
 
 
 /* Button Outline */
