@@ -1,6 +1,6 @@
 # Gojek App Cloning
 
-Developed an end to end **Gojek App** using React Native with multiple screens
+Cloning **Gojek App** using React Native.
 
 
 ### Installation:
