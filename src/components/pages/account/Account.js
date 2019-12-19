@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
+import { AtomGlobal as Atom } from '../../atoms/Index'
+
 export default class MyAccount extends Component {
-    render(){
+    render() {
         return (
-            <Text style={{fontSize: 40}}>MyAccount</Text>
+            <Atom.Container>
+                <Text>MyAccount</Text>
+            </Atom.Container>
         );
     }
 }

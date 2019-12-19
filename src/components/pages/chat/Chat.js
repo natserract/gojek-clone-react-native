@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+
+import { AtomGlobal as Atom } from '../../atoms/Index'
 
 export default class Helps extends Component {
     render() {
         return (
-            <View>
-                <Text>Helps</Text>
-            </View>
+            <Atom.Container>
+                <Text>Chat Screen</Text>
+            </Atom.Container>
         )
     }
 }
