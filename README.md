@@ -12,10 +12,6 @@ Cloning **Gojek App** using React Native.
 4. Open terminal and type `react-native run-ios` or `react-native run-android` 
 5. Done! *If you wanna test, change the code in* **/src/components/pages/Home.js**
 
-### Motivation:
- 
-*Plato once said, “Never discourage anyone who continually makes progress, no matter how slow.”*
-
 ### Features Demo:
 
 <p align="center">
@@ -33,3 +29,13 @@ Cloning **Gojek App** using React Native.
   <p align="center">
 <img src="https://www.mediafire.com/convkey/1220/l3mkwzjgqgk229t7g.jpg" border="0" alt="demo-app"  />
   </p>
+
+
+### Motivation:
+ 
+*Plato once said, “Never discourage anyone who continually makes progress, no matter how slow.”*
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
