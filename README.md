@@ -22,7 +22,7 @@ Cloning **Gojek App** using React Native.
 <img src="https://www.mediafire.com/convkey/0409/h58axakjcfu4eoz7g.jpg" border="0" alt="demo-app" />
 </p>
 <p align="center">
-<img src="https://www.mediafire.com/convkey/62a5/0umotbvewa0ugq57g.jpg" border="0" alt="demo-app"  />
+<img src="https://github.com/alfinsuryaS/Gojek-Clone-RN/blob/master/src/assets/images/content/main.jpg" border="0" alt="demo-app"  />
 </p>
 <p align="center">
 <img src="https://www.mediafire.com/convkey/5110/0w2hv97w0u30okf7g.jpg" border="0" alt="demo-app"/>
